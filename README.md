@@ -1,40 +1,31 @@
 <div align="center">
-  <img src="media/banner.png" alt="Yoke AntiGravity Banner" width="100%" />
+  <img src="media/banner.png" alt="Antigravity Workflow Kit Banner" width="100%" />
 
-  # Yoke AntiGravity
+  # Antigravity Workflow Kit
 
   **Transform Antigravity into a fully autonomous AI development environment.**
 
   Stop clicking "Accept" – let AI code for you while you focus on what matters.
 
-  [![Open VSX](https://img.shields.io/open-vsx/v/ai-dev-2024/yoke-antigravity?style=flat-square&label=Open%20VSX&color=success)](https://open-vsx.org/extension/ai-dev-2024/yoke-antigravity)
-  [![GitHub Stars](https://img.shields.io/github/stars/ai-dev-2024/yoke-antigravity?style=flat-square&logo=github)](https://github.com/ai-dev-2024/yoke-antigravity/stargazers)
-  [![License](https://img.shields.io/github/license/ai-dev-2024/yoke-antigravity?style=flat-square&color=blue)](LICENSE)
+  [![Open VSX](https://img.shields.io/open-vsx/v/ai-dev-2024/antigravity-workflow-kit?style=flat-square&label=Open%20VSX&color=success)](https://open-vsx.org/extension/ai-dev-2024/antigravity-workflow-kit)
+  [![GitHub Stars](https://img.shields.io/github/stars/ai-dev-2024/antigravity-workflow-kit?style=flat-square&logo=github)](https://github.com/ai-dev-2024/antigravity-workflow-kit/stargazers)
+  [![License](https://img.shields.io/github/license/ai-dev-2024/antigravity-workflow-kit?style=flat-square&color=blue)](LICENSE)
 
   [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Configuration](#configuration) • [Support](#support)
 </div>
 
 ---
 
-## 📸 Dashboard Preview
-
-<div align="center">
-  <img src="media/dashboard-screenshot.png" alt="Yoke Dashboard" width="600" />
-  <p><em>Sleek, modern dashboard for controlling all autonomous features</em></p>
-</div>
-
----
-
 ## 🚀 Overview
 
-Yoke Antigravity connects directly to the Antigravity editor's internal systems, unlocking true autonomy. By bridging the gap between the editor's capabilities and AI models, Yoke enables features like **Auto-All** (zero-click acceptance), **Multi-Tab** (parallel workflows), and the **Autonomous Loop** for self-directed development.
+Antigravity Workflow Kit connects directly to the Antigravity editor's internal systems, unlocking true autonomy. By bridging the gap between the editor's capabilities and AI models, Workflow Kit enables features like **Auto-All** (zero-click acceptance), **Multi-Tab** (parallel workflows), and the **Autonomous Loop** for self-directed development.
 
 ### 🔗 Install Now
 
 | Platform | Link |
 |----------|------|
-| **Open VSX** | [Install from Open VSX](https://open-vsx.org/extension/ai-dev-2024/yoke-antigravity) |
-| **GitHub Releases** | [Download VSIX](https://github.com/ai-dev-2024/yoke-antigravity/releases) |
+| **Open VSX** | [Install from Open VSX](https://open-vsx.org/extension/ai-dev-2024/antigravity-workflow-kit) |
+| **GitHub Releases** | [Download VSIX](https://github.com/ai-dev-2024/antigravity-workflow-kit/releases) |
 
 ---
 
@@ -110,17 +101,17 @@ Yoke Antigravity connects directly to the Antigravity editor's internal systems,
 ## 📦 Installation
 
 ### From Open VSX (Recommended)
-Search for **"Yoke AntiGravity"** in Antigravity Extensions, or [click here to install](https://open-vsx.org/extension/ai-dev-2024/yoke-antigravity).
+Search for **"Antigravity Workflow Kit"** in Antigravity Extensions, or [click here to install](https://open-vsx.org/extension/ai-dev-2024/antigravity-workflow-kit).
 
 ### From VSIX
-1. Download the latest `.vsix` from [Releases](https://github.com/ai-dev-2024/yoke-antigravity/releases)
+1. Download the latest `.vsix` from [Releases](https://github.com/ai-dev-2024/antigravity-workflow-kit/releases)
 2. In Antigravity: `Cmd/Ctrl+Shift+P` → "Extensions: Install from VSIX..."
 3. Select the downloaded file
 
 ### From Source
 ```bash
-git clone https://github.com/ai-dev-2024/yoke-antigravity.git
-cd yoke-antigravity
+git clone https://github.com/ai-dev-2024/antigravity-workflow-kit.git
+cd antigravity-workflow-kit
 npm install
 npm run compile
 npm run package
@@ -135,23 +126,23 @@ npm run package
 Click the status bar items to toggle features instantly:
 - **Auto-All**: Toggle auto-accept (✅ Ready)
 - **Multi-Tab**: Toggle parallel mode (✅ Ready)
-- **Yoke**: Start autonomous loop (🚧 Beta)
+- **Workflow Kit**: Start autonomous loop (🚧 Beta)
 - **⚙️**: Open Dashboard
 
 ### Dashboard
-Access via `Yoke: Open Dashboard` in the Command Palette.
+Access via `Workflow Kit: Open Dashboard` in the Command Palette.
 - Configure feature toggles and model preferences
 - View real-time session statistics
 - Manage banned commands
 
 ### New Commands
-- `Yoke: Toggle MCP Server` — Enable MCP tools for AI
-- `Yoke: Toggle Voice Control` — Voice command support
-- `Yoke: Generate Tests` — Auto-generate tests for current file
-- `Yoke: Run Code Review` — Security & quality scan
-- `Yoke: Start Multi-Agent Task` — Parallel agent collaboration
-- `Yoke: Show Session Memory` — View memory context
-- `Yoke: Sync Project Tasks` — Jira/GitHub sync
+- `Workflow Kit: Toggle MCP Server` — Enable MCP tools for AI
+- `Workflow Kit: Toggle Voice Control` — Voice command support
+- `Workflow Kit: Generate Tests` — Auto-generate tests for current file
+- `Workflow Kit: Run Code Review` — Security & quality scan
+- `Workflow Kit: Start Multi-Agent Task` — Parallel agent collaboration
+- `Workflow Kit: Show Session Memory` — View memory context
+- `Workflow Kit: Sync Project Tasks` — Jira/GitHub sync
 
 ---
 
@@ -190,11 +181,11 @@ src/
 
 | Setting | Default | Description |
 |---------|---------|-------------|
-| `yoke.autoAllEnabled` | `false` | Enable Auto-accept mode |
-| `yoke.multiTabEnabled` | `false` | Enable Multi-tab background work |
-| `yoke.yokeModeEnabled` | `false` | Enable Autonomous loop |
-| `yoke.preferredModelForReasoning` | `claude-opus-4.5` | Model for complex logic |
-| `yoke.preferredModelForFrontend` | `gemini-3-pro` | Model for UI/CSS tasks |
+| `workflowKit.autoAllEnabled` | `false` | Enable Auto-accept mode |
+| `workflowKit.multiTabEnabled` | `false` | Enable Multi-tab background work |
+| `workflowKit.autopilotModeEnabled` | `false` | Enable Autonomous loop |
+| `workflowKit.preferredModelForReasoning` | `claude-opus-4.5` | Model for complex logic |
+| `workflowKit.preferredModelForFrontend` | `gemini-3-pro` | Model for UI/CSS tasks |
 
 ---
 
@@ -220,7 +211,7 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 <div align="center">
   <h3>💖 Support the Project</h3>
-  <p>If Yoke saves you time, consider buying us a coffee.</p>
+  <p>If Workflow Kit saves you time, consider buying us a coffee.</p>
   <a href="https://ko-fi.com/ai_dev_2024">
     <img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" height="40" alt="Buy Me a Coffee at ko-fi.com" />
   </a>
